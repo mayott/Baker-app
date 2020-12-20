@@ -139,9 +139,9 @@
             <li>аромат - который к сожалению, нельзя передать, через сеть.</li>
         </ul>
         <div class="socials">
-            <a href="https://vk.com/dm_vsk" target="_blank" class="vk">VK</a>
+            <a href="https://vk.com/" target="_blank" class="vk">VK</a>
             <a
-                href="https://www.instagram.com/vsk_baker/"
+                href="https://www.instagram.com/"
                 target="_blank"
                 class="inst">INSTAGRAM</a>
         </div>

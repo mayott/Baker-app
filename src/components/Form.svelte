@@ -145,9 +145,9 @@
             не подходит, ниже оставлю свою почту и рабочий номер телефона.
         </p>
 
-        <span class="icon phone"><a href="tel:+79610655670">+7 (961) 065-56-70</a></span>
+        <span class="icon phone"><a href="tel:+79998887766">+7 (999) 888-77-66</a></span>
         <span class="icon mail"><a
-                href="mailto:dmitry_vsk@gmail.com">dmitry_vsk@gmail.com</a></span>
+                href="mailto:mail@gmail.com">mail@gmail.com</a></span>
         <span class="icon location"><a
                 href="https://goo.gl/maps/fiPEuL77HaoQSNrC9"
                 target="_blank">Москва, г. Московский</a></span>
