@@ -60,7 +60,7 @@
         position: relative;
     }
     a.hidden {
-        display: none;
+        visibility: hidden;
     }
     .vk::before {
         content: "";
