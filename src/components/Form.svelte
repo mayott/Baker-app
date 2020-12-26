@@ -4,7 +4,7 @@
 <style>
     div.form {
         background: #323232;
-        padding: 85px 0;
+        padding: 85px 15px;
         color: #e0e0e0;
         display: flex;
         justify-content: center;
@@ -47,7 +47,7 @@
         background-color: #39c5a9;
     }
     .text-group {
-        width: 300px;
+        width: 350px;
         margin-left: 30px;
         display: flex;
         flex-direction: column;
@@ -65,41 +65,51 @@
         content: "";
         position: absolute;
     }
-    @media (min-width: 1200px) {
-        .location::before {
-            height: 11px;
-            width: 7px;
-            left: 1px;
-            bottom: 4px;
-            background-image: url(https://i.ibb.co/LRHpsNT/location.png);
-        }
-        .phone::before {
-            height: 11px;
-            width: 11px;
-            left: -1px;
-            bottom: 4px;
-            background-image: url(https://i.ibb.co/sgLDY6q/phone.png);
-        }
-        .mail::before {
-            height: 8px;
-            width: 13px;
-            left: -2px;
-            bottom: 4px;
-            background-image: url(https://i.ibb.co/M73Cxvc/mail.png);
-        }
+    .location::before {
+        height: 11px;
+        width: 7px;
+        left: 1px;
+        bottom: 4px;
+        background-image: url(https://i.ibb.co/LRHpsNT/location.png);
+    }
+    .phone::before {
+        height: 11px;
+        width: 11px;
+        left: -1px;
+        bottom: 4px;
+        background-image: url(https://i.ibb.co/sgLDY6q/phone.png);
+    }
+    .mail::before {
+        height: 8px;
+        width: 13px;
+        left: -2px;
+        bottom: 4px;
+        background-image: url(https://i.ibb.co/M73Cxvc/mail.png);
     }
     @media (max-width: 768px) {
         div.form {
             padding: 70px 30px;
         }
     }
-    @media (max-width: 426px) {
+    @media (max-width: 650px) {
+        p {
+            text-align: center;
+        }
+        .location::before {
+            background-image: none;
+        }
+        .phone::before {
+            background-image: none;
+        }
+        .mail::before {
+            background-image: none;
+        }
         .icon {
             padding-left: 0;
         }
         a {
             line-height: 2;
-            font-size: 20px;
+            font-size: 28px;
         }
         h2 {
             text-align: center;
@@ -112,12 +122,22 @@
             width: 100%;
         }
         .text-group {
+            width: 100%;
             padding-top: 10px;
             margin: 0 auto;
             text-align: center;
         }
         button {
             align-self: auto;
+        }
+    }
+    @media (max-width: 350px) {
+        a {
+            line-height: 2;
+            font-size: 18px;
+        }
+        form {
+            font-size: 12px;
         }
     }
 </style>
@@ -134,7 +154,7 @@
 
         <input type="text" placeholder="Тема" name="_subject" />
         <input type="hidden" name="_next" value="//site.io/thanks.html" />
-        <textarea cols="30" rows="10" placeholder="Текст" name="message" />
+        <textarea cols="30" rows="10" placeholder="Сообщение" name="message" />
         <button>Отправить</button>
     </form>
 

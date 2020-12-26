@@ -39,6 +39,7 @@
         justify-content: center;
         align-items: center;
         margin-top: 100px;
+        padding: 0 15px;
         background-color: #2eb398;
         height: 400px;
     }
@@ -95,7 +96,7 @@
             margin-top: -25px;
         }
     }
-    @media (max-width: 426px) {
+    @media (max-width: 650px) {
         .vk::before,
         .inst::before {
             width: 45px;

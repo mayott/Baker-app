@@ -12,14 +12,14 @@
         margin: 5px;
         margin-top: -45px;
     }
-    @media (max-width: 768px) {
+    @media (max-width: 950px) {
         img {
-            width: 150px;
-            height: 165px;
+            width: 145px;
+            height: 160px;
             margin-top: -35px;
         }
     }
-    @media (max-width: 426px) {
+    @media (max-width: 650px) {
         img {
             width: 80px;
             height: 93px;
@@ -28,6 +28,14 @@
         img.big {
             width: 150px;
             height: 165px;
+        }
+    }
+    @media (max-width: 374px) {
+        img {
+            width: 60px;
+            height: 66px;
+            margin: 2px;
+            margin-top: -15px;
         }
     }
 </style>

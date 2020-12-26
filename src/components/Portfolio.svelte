@@ -25,7 +25,7 @@
             width: 100%;
         }
     }
-    @media (max-width: 426px) {
+    @media (max-width: 650px) {
         div {
             margin-top: 85px;
         }

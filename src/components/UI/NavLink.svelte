@@ -16,7 +16,12 @@
     }
     @media (max-width: 426px) {
         a {
-            font-size: 12px;
+            font-size: 14px;
+        }
+    }
+    @media (max-width: 351px) {
+        a {
+            font-size: 10px;
         }
     }
 </style>
