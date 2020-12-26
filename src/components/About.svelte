@@ -60,7 +60,8 @@
         position: relative;
     }
     a.hidden {
-        visibility: hidden;
+        font-size: 0;
+        align-self: flex-start;
     }
     .vk::before {
         content: "";
