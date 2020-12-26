@@ -32,4 +32,4 @@
     }
 </style>
 
-<img {src} {alt} class={size === 'big' ? 'big' : ''} />
+<img {src} {alt} class={size === 'big' ? 'big' : ''} width="180" height="200" />

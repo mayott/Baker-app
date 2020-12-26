@@ -59,6 +59,9 @@
         font-size: 0;
         position: relative;
     }
+    a.hidden {
+        display: none;
+    }
     .vk::before {
         content: "";
         background-image: url("https://i.ibb.co/vVW1PPj/iconfinder-Logo-vk-Vkontakte-6214734.webp");
@@ -125,17 +128,21 @@
 </style>
 
 <div class="about">
+    <a name="about" class="hidden">About</a>
     <HexagonImg {...imgSrc} {size} />
     <div class="text-group">
-        <h1><a name="about">Дмитрий Васьковский</a></h1>
+        <h1>Дмитрий Васьковский</h1>
         <h3>Слоёный перфекционист и пекарь.</h3>
         <p>Три кита на которых стоят мои убеждения об изделиях:</p>
         <ul>
+            <li>нет лучше хлеба, чем хлеб на закваске;</li>
             <li>
-                нет лучше хлеба, чем хлеб на закваске;
+                пористость и вкус расскажет о профессионализме твоего пекаря;
             </li>
-            <li>пористость и вкус расскажет о профессионализме твоего пекаря;</li>
-            <li>только выдавая каждый день стабильный, качественный результат можно быть довольным своей работой.</li>
+            <li>
+                только выдавая каждый день стабильный, качественный результат
+                можно быть довольным своей работой.
+            </li>
         </ul>
         <div class="socials">
             <a href="https://vk.com/" target="_blank" class="vk">VK</a>
